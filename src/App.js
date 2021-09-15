@@ -1,16 +1,18 @@
 import './App.css';
 import Header from './components/Header';
-import Project from './components/Project';
+import Main from './components/Main';
+// import Project from './components/Project';
 import Footer from './components/Footer';
-
-import Card from 'react-bootstrap/Card'
+import "bootstrap/dist/css/bootstrap.min.css";
 
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
-      <Card>Hello WOrld!</Card>
+      <Main></Main>
+      <Footer></Footer>
+      
     </div>
   );
 }
