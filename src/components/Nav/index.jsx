@@ -9,12 +9,12 @@ function Nav() {
 
     return (
         
-            <Row style={{ height: '100px', width: "auto"}}>
-                <Col xs="0" md lg="1"></Col>
+            <Row style={{ height: '100px', margin: "0px auto", flexWrap: "nowrap"}}>
+                <Col xs="0" lg="1"></Col>
                 <Col xs lg="2" style={{width: 'content'}}>
-                    Easton-Shaum
+                    Easton Shaum
                 </Col>
-                <Col md="auto"></Col>
+                <Col md="3"></Col>
                 <Col xs lg="2">
                     About Me
                 </Col>

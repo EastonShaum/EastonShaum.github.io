@@ -10,9 +10,9 @@ function Header() {
     return (
         <div>
             
-                <Navbar bg="light" style={{fluid: "true", padding: "0"}} >
+                {/* <Navbar bg="light" style={{fluid: "true", padding: "0"}} > */}
                         <Nav></Nav>
-                </Navbar> 
+                {/* </Navbar>  */}
             
             
         </div>
