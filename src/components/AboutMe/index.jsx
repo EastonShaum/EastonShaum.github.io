@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container'
 
 
 
-function Main() {
+function AboutMe() {
 
     return (
         <div>
@@ -41,4 +41,4 @@ function Main() {
     )
 }
 
-export default Main;
+export default AboutMe;
