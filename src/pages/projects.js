@@ -8,6 +8,9 @@ const Projects = () => {
     return (
         <div>
             these are the projects
+        
+            <ProjectList>
+            </ProjectList>
         </div>
     );
 }

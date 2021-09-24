@@ -8,7 +8,7 @@ import Nav from '../Nav';
 function Header() {
 
     return (
-        <div>
+        <div style={{borderBottomColor: "grey", borderBottomStyle: "solid"}}>
             <Nav></Nav>
         </div>
     )

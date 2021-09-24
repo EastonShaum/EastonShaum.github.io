@@ -10,17 +10,17 @@ function AboutMe() {
     return (
         <div>
             <Container fluid="xxl">
-                <div style={{textAlign: "left", padding: "100px 0px", minHeight: "90vh", display: "flex",  justifyContent: "center",  alignItems: "center"}}>
+                <div style={{textAlign: "left", padding: "100px 0px", minHeight: "80vh", display: "flex",  justifyContent: "center",  alignItems: "center"}}>
                     <div style={{width: "60%", margin: "0px auto", maxwidth: "600px", minwidth: "500px" }}>
                         <div >
-                            <h3>
+                            <h4>
                                 Easton Shaum is Junior Developer cnmxbvm,nc hfjdks hfjkewh huweh kj hdfjsk  shfjwk f whfjk dshjk hjks 
-                            </h3>
+                            </h4>
                         </div>
                         <div >
-                            <h3>
+                            <h4>
                                 Technologies/Skills: 
-                            </h3>
+                            </h4>
                             <ul>
                                 <li>
                                     JavaScript
@@ -33,6 +33,7 @@ function AboutMe() {
                                 </li>
                             </ul>
                         </div>
+                        <h4><a href="https://eastonshaum@gmail.com" target="_blank" rel="noreferrer" className="link">Contact</a></h4>
                     </div>
                 </div>
             </Container>
