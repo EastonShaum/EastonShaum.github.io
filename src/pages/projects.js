@@ -7,7 +7,7 @@ const Projects = () => {
 
     return (
         <div>
-            these are the projects
+            <h2>Projects</h2>
         
             <ProjectList>
             </ProjectList>
