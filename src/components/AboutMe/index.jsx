@@ -1,7 +1,8 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container'
-// import Row from 'react-bootstrap/Row'
-// import Col from 'react-bootstrap/Col'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import ProjectList from '../ProjectList';
 
 
 
@@ -35,6 +36,11 @@ function AboutMe() {
                         </div>
                         <h4><a href="https://eastonshaum@gmail.com" target="_blank" rel="noreferrer" className="link">Contact</a></h4>
                     </div>
+                    {/* <Row>
+                    <Col xs="12" md="12" lg="12">here</Col>
+                    <ProjectList></ProjectList>
+                    </Row> */}
+                    
                 </div>
             </Container>
             
