@@ -1,8 +1,8 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import ProjectList from '../ProjectList';
+// import Row from 'react-bootstrap/Row'
+// import Col from 'react-bootstrap/Col'
+// import ProjectList from '../ProjectList';
 
 
 
@@ -22,7 +22,7 @@ function AboutMe() {
                         </div>
                         <div >
                             <h4>
-                                Easton Shaum is Junior Developer cnmxbvm,nc hfjdks hfjkewh huweh kj hdfjsk  shfjwk f whfjk dshjk hjks 
+                                Easton Shaum is begining Junior Developer that just finsihed a full stack coding bootcamp with the University of Utah. He is deticated to learning more about code every single day and working with others on projects and apps.
                             </h4>
                         </div>
                         <div >
