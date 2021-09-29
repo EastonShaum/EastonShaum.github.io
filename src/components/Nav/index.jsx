@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 
 
@@ -17,7 +18,7 @@ function Nav() {
                 </Col>
                 <Col xs="3" md="3" lg="6"></Col>
                 <Col xs="2" md="2" lg="1">
-                    <a href="/projects"  className="btn btn-outline-secondary">Projects</a>
+                    <Link to="/projects"  className="btn btn-outline-secondary">Projects</Link>
                 </Col>
                 <Col xs="0" md="2" lg="1" className="github-button">
                     <a href="https://github.com/EastonShaum" target="_blank" rel="noreferrer" className="btn btn-outline-secondary">Github</a>
@@ -46,7 +47,7 @@ function Nav() {
                 </Col>
                 <Col xs="3" md="3" lg="6"></Col>
                 <Col xs="2" md="2" lg="1">
-                    <a href="/"  className="btn btn btn-dark" style={{textColor: "white"}}>Projects</a>
+                    <Link to="/"  className="btn btn btn-dark" style={{textColor: "white"}}>Projects</Link>
                 </Col>
                 <Col xs="0" md="2" lg="1" className="github-button">
                     <a href="https://github.com/EastonShaum" target="_blank" rel="noreferrer" className="btn btn-outline-secondary">Github</a>
