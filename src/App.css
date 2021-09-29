@@ -25,6 +25,12 @@
   }
 }
 
+@media (max-width: 400px) {
+  .github-button {
+    display: none;
+  }
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

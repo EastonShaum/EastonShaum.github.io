@@ -13,6 +13,13 @@ function AboutMe() {
             <Container fluid="xxl">
                 <div style={{textAlign: "left", padding: "100px 0px", minHeight: "80vh", display: "flex",  justifyContent: "center",  alignItems: "center"}}>
                     <div style={{width: "60%", margin: "0px auto", maxwidth: "600px", minwidth: "500px" }}>
+                        <div style={{display: "flex"}}>
+                            <h1  style={{fontStyle: "italic"}}>
+                                <p className="text-muted" style={{fontSize: "75%"}}>&lt;h1&gt;</p>
+                                <p className="font-weight-bolder" style={{fontSize: "150%"}}>Hello!</p>
+                                <p className="text-muted" style={{fontSize: "75%"}}>&lt;h1&gt;</p>
+                            </h1>
+                        </div>
                         <div >
                             <h4>
                                 Easton Shaum is Junior Developer cnmxbvm,nc hfjdks hfjkewh huweh kj hdfjsk  shfjwk f whfjk dshjk hjks 
@@ -20,27 +27,22 @@ function AboutMe() {
                         </div>
                         <div >
                             <h4>
-                                Technologies/Skills: 
+                                Technical Skills: 
                             </h4>
                             <ul>
                                 <li>
-                                    JavaScript
+                                    Languages: JavaScript ES6+, CSS3, HTML5, SQL, NoSQL
                                 </li>
                                 <li>
-                                    HTML
+                                    Applications: GitHub, MongoDB, MySQL
                                 </li>
                                 <li>
-                                    CSS
+                                    Tools: Express, React, Node, Query, Bootstrap
                                 </li>
                             </ul>
                         </div>
-                        <h4><a href="https://eastonshaum@gmail.com" target="_blank" rel="noreferrer" className="link">Contact</a></h4>
+                        <h4><a href="https://eastonshaum@gmail.com" target="_blank" rel="noreferrer" className="link">Contact Me: EastonShaum@gmail.com</a></h4>
                     </div>
-                    {/* <Row>
-                    <Col xs="12" md="12" lg="12">here</Col>
-                    <ProjectList></ProjectList>
-                    </Row> */}
-                    
                 </div>
             </Container>
             

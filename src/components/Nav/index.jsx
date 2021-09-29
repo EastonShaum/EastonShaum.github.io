@@ -9,39 +9,58 @@ function Nav() {
         return (
         
             <Row style={{ height: '100px', margin: "0px auto"}}>
-                <Col xs="12" md="12" lg="12"></Col>
+                <Col xs="12" md="12" lg="12" style={{ height: '48px', margin: "0px auto"}}></Col>
                 <Col xs="1" md="1" lg="1"></Col>
-                <Col xs="10" md="2" lg="2" style={{width: 'content'}}>
-                    Easton Shaum
+                
+                <Col xs="3" md="3" lg="2" style={{width: 'content'}}>
+                    <h4>Easton Shaum</h4>
                 </Col>
-                <Col xs="1" md="5" lg="5"></Col>
-                <Col xs="6" md="2" lg="2">
+                <Col xs="3" md="3" lg="6"></Col>
+                <Col xs="2" md="2" lg="1">
                     <a href="/projects"  className="btn btn-outline-secondary">Projects</a>
-                    
                 </Col>
-                <Col xs="6" md="2" lg="2">
+                <Col xs="0" md="2" lg="1" className="github-button">
                     <a href="https://github.com/EastonShaum" target="_blank" rel="noreferrer" className="btn btn-outline-secondary">Github</a>
                 </Col>
+                
+
+                <Col xs="1" md="1" lg="1"></Col>
+                <Col xs="12" md="12" lg="12" style={{ height: '24px', margin: "0px auto"}}></Col>
+                <Col xs="1" md="1" lg="1"></Col>
+                <Col xs="10" md="10" lg="10">
+                <div style={{borderBottomColor: "grey", borderBottomStyle: "solid"}}>
+                </div>
+                </Col>
+                <Col xs="1" md="1" lg="1"></Col>
             </Row>
         
         )
     } else {
         return (
-        
             <Row style={{ height: '100px', margin: "0px auto"}}>
-                <Col xs="12" md="12" lg="12"></Col>
+                <Col xs="12" md="12" lg="12" style={{ height: '48px', margin: "0px auto"}}></Col>
                 <Col xs="1" md="1" lg="1"></Col>
-                <Col xs="10" md="2" lg="2" style={{width: 'content'}}>
-                    Easton Shaum
+                
+                <Col xs="3" md="3" lg="2" style={{width: 'content'}}>
+                    <h4>Easton Shaum</h4>
                 </Col>
-                <Col xs="1" md="5" lg="5"></Col>
-                <Col xs="6" md="2" lg="2">
-                    <a href="/"  className="btn btn-outline-secondary">About Me</a>
-                    
+                <Col xs="3" md="3" lg="6"></Col>
+                <Col xs="2" md="2" lg="1">
+                    <a href="/"  className="btn btn btn-dark" style={{textColor: "white"}}>Projects</a>
                 </Col>
-                <Col xs="6" md="2" lg="2">
+                <Col xs="0" md="2" lg="1" className="github-button">
                     <a href="https://github.com/EastonShaum" target="_blank" rel="noreferrer" className="btn btn-outline-secondary">Github</a>
                 </Col>
+                
+
+                <Col xs="1" md="1" lg="1"></Col>
+                <Col xs="12" md="12" lg="12" style={{ height: '24px', margin: "0px auto"}}></Col>
+                <Col xs="1" md="1" lg="1"></Col>
+                <Col xs="10" md="10" lg="10">
+                <div style={{borderBottomColor: "grey", borderBottomStyle: "solid"}}>
+                </div>
+                </Col>
+                <Col xs="1" md="1" lg="1"></Col>
             </Row>
         
         )
