@@ -1,4 +1,6 @@
 import React from 'react';
+import Header from '../Header';
+
 import Container from 'react-bootstrap/Container'
 // import Row from 'react-bootstrap/Row'
 // import Col from 'react-bootstrap/Col'
@@ -10,6 +12,7 @@ function AboutMe() {
 
     return (
         <div>
+            <Header></Header>
             <Container fluid="xxl">
                 <div style={{textAlign: "left", padding: "100px 0px", minHeight: "80vh", display: "flex",  justifyContent: "center",  alignItems: "center"}}>
                     <div style={{width: "60%", margin: "0px auto", maxwidth: "600px", minwidth: "500px" }}>
@@ -25,6 +28,7 @@ function AboutMe() {
                                 Easton Shaum is begining Junior Developer that just finsihed a full stack coding bootcamp with the University of Utah. He is deticated to learning more about code every single day and working with others on projects and apps.
                             </h4>
                         </div>
+                        <br></br>
                         <div >
                             <h4>
                                 Technical Skills: 

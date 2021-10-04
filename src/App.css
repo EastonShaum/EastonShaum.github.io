@@ -1,3 +1,10 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Mono';
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
 
 .link {
   color: black;

@@ -36,7 +36,7 @@ function Nav() {
             </Row>
         
         )
-    } else {
+    } else if (window.location.pathname === "/projects") {
         return (
             <Row style={{ height: '100px', margin: "0px auto"}}>
                 <Col xs="12" md="12" lg="12" style={{ height: '48px', margin: "0px auto"}}></Col>
