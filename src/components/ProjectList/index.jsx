@@ -7,6 +7,8 @@ import CookitPic from '../../assets/images/cookit.png'
 
 function ProjectList() {
 
+    
+
     return (
         <div style={{textAlign: "left"}}>
             <Row className="g-0">
@@ -19,7 +21,7 @@ function ProjectList() {
                             </Col>
                             <Col xs="12" md="8" lg="8">
                                 <div className="card-body">
-                                    <h5 className="card-title"><a href="https://cookit-book.herokuapp.com/" target="_blank" rel="noreferrer" className="link">CooKit</a></h5>
+                                    <h4 className="card-title"><a href="https://cookit-book.herokuapp.com/" target="_blank" rel="noreferrer" className="link">CooKit</a></h4>
                                     <h6 className="card-title"><a href="https://github.com/jbped/cookit" target="_blank" rel="noreferrer" className="link">Github repo</a></h6>
                                     <p className="card-text">Recipe application for adding, viewing, and saving recipes to your "Kit"</p>
                                     <p className="card-text"><small className="text-muted">Technolgies: React, MongoDB, GraphQL, JavaScript, Html, SCSS </small></p>
@@ -27,6 +29,7 @@ function ProjectList() {
                             </Col>
                         </Row>
                     </Card>
+
                     <Card className="mb-3" style={{margin: "48px"}}>
                         <Row className="g-0">
                             <Col xs="12" md="4" lg="4">
