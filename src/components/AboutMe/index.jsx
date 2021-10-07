@@ -2,6 +2,8 @@ import React from 'react';
 import Header from '../Header';
 import Footer from '../Footer';
 
+import Portrait from '../../assets/images/Portrait.jpeg'
+
 import Container from 'react-bootstrap/Container'
 // import Row from 'react-bootstrap/Row'
 // import Col from 'react-bootstrap/Col'
@@ -18,11 +20,18 @@ function AboutMe() {
                 <div style={{textAlign: "left", padding: "100px 0px", minHeight: "80vh", display: "flex",  justifyContent: "center",  alignItems: "center"}}>
                     <div className="aboutMe">
                         <div style={{display: "flex"}}>
-                            <h1  style={{fontStyle: "italic"}}>
-                                <p className="text-muted" style={{fontSize: "75%"}}>&lt;h1&gt;</p>
-                                <p className="font-weight-bolder" style={{fontSize: "150%"}}>Hello!</p>
-                                <p className="text-muted" style={{fontSize: "75%"}}>&lt;h1&gt;</p>
-                            </h1>
+                            <div  className="align-middle" style={{float: "left"}}>
+                                <h1  style={{fontStyle: "italic"}}>
+                                    <p className="text-muted top-tag" style={{fontSize: "75%"}}>&lt;h1&gt;</p>
+                                    <p className="font-weight-bolder" style={{fontSize: "150%"}}>Hello!</p>
+                                    <p className="text-muted" style={{fontSize: "75%"}}>&lt;h1&gt;</p>
+                                </h1>
+                            </div>
+                            <div  style={{margin: "auto"}}>
+                            </div>
+                            <div className="portrait-div" style={{}}>
+                                <img className="portrait" src={Portrait} alt="My portrait" ></img>
+                            </div>
                         </div>
                         <div >
                             <h4>
@@ -46,6 +55,8 @@ function AboutMe() {
                                 </li>
                             </ul>
                         </div>
+                        <br></br>
+                        <h4><a href="https://github.com/EastonShaum" target="_blank" rel="noreferrer" className="link github-link">Github</a></h4>
                         <h4>My Resume: <a href="/EastonShaumResume.docx" download className="link">Simple</a>
                         , <a href="/EastonShaumResume.docx" download className="link">Styled</a></h4>
                         <h4>Contact Me: <a href="https://eastonshaum@gmail.com" target="_blank" rel="noreferrer" className="link">EastonShaum@gmail.com</a></h4>

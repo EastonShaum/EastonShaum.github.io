@@ -5,6 +5,21 @@ body {
   -moz-osx-font-smoothing: grayscale; */
 }
 
+/* img {
+  width: 100px;
+  height: auto
+}
+*/
+.potrait-div {
+  float: right;
+}
+
+.portrait {
+  width: 35vw;
+  height: auto;
+  
+  border-radius:15%;
+} 
 
 .link {
   /* color: black; */
@@ -98,13 +113,34 @@ body {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-@media (max-width: 400px) {
+/* Small screens */
+@media (max-width: 575.98px) {
   .github-button {
     display: none;
   }
   .aboutMe {
     width: 80%;
+  }
+  .projectBtn {
+    font-size: "3vw";
+  }
+}
+/* Any bigger than a small screen */
+@media (min-width: 576px) {
+  .github-link {
+    display: none;
+  }
+
+  .portrait {
+    width: 172px;
+    height: auto;
+    object-fit: contain; 
+    border-radius:15%;
+    margin-bottom: 1rem;
+  }
+
+  .top-tag{
+    margin-top: 1rem;
   }
 }
 
