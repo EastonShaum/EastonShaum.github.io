@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.7a822dd2.chunk.css",
-    "main.js": "/static/js/main.684bb1d7.chunk.js",
-    "main.js.map": "/static/js/main.684bb1d7.chunk.js.map",
+    "main.js": "/static/js/main.47931798.chunk.js",
+    "main.js.map": "/static/js/main.47931798.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2ab200af.js",
     "runtime-main.js.map": "/static/js/runtime-main.2ab200af.js.map",
     "static/css/2.818011ed.chunk.css": "/static/css/2.818011ed.chunk.css",
@@ -15,13 +15,16 @@
     "static/media/GoalPic1.1455a4ae.png": "/static/media/GoalPic1.1455a4ae.png",
     "static/media/Portrait.6828c231.jpeg": "/static/media/Portrait.6828c231.jpeg",
     "static/media/bitcoin.441bd88f.svg": "/static/media/bitcoin.441bd88f.svg",
-    "static/media/cookit.1b7149ea.png": "/static/media/cookit.1b7149ea.png"
+    "static/media/budget.58a13582.jpg": "/static/media/budget.58a13582.jpg",
+    "static/media/cookit.1b7149ea.png": "/static/media/cookit.1b7149ea.png",
+    "static/media/readme.69569a76.jpg": "/static/media/readme.69569a76.jpg",
+    "static/media/techBlog.08a218e7.jpg": "/static/media/techBlog.08a218e7.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2ab200af.js",
     "static/css/2.818011ed.chunk.css",
     "static/js/2.6382de3a.chunk.js",
     "static/css/main.7a822dd2.chunk.css",
-    "static/js/main.684bb1d7.chunk.js"
+    "static/js/main.47931798.chunk.js"
   ]
 }
