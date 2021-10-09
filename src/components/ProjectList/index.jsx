@@ -3,38 +3,11 @@ import { Card, Row, Col } from 'react-bootstrap'
 
 import projectInfo from '../../assets/projects';
 
-import GoalGetterPic from '../../assets/images/GoalPic1.png'
-import JoinCoinPic from '../../assets/images/bitcoin.svg'
-import CookitPic from '../../assets/images/cookit.png'
 
-// const generateProjectHtml = (i) => {
-//     return `
-//     <Card className="mb-3" style={{margin: "48px", contentAlign: "center"}}>
-//         <Row className="g-0">
-//             <Col xs="12" md="4" lg="4">
-//                 <img src={${projectInfo[i].name}Pic} className="img-fluid rounded-start" alt="${projectInfo[i].name} logo"></img>
-//                 </Col>
-//                 <Col xs="12" md="8" lg="8">
-//                 <div className="card-body">
-//                     <h4 className="card-title"><a href="${projectInfo[i].link}" target="_blank" rel="noreferrer" className="link">${projectInfo[i].name}</a></h4>
-//                     <h6 className="card-title"><a href="${projectInfo[i].github}" target="_blank" rel="noreferrer" className="link">Github repo</a></h6>
-//                     <p className="card-text">${projectInfo[i].desc}</p>
-//                     <p className="card-text"><small className="text-muted">${projectInfo[i].tech}</small></p>
-//                 </div>
-//             </Col>
-//         </Row>
-//     </Card>
-//     `
-// }
 
 function ProjectList() {
 
-    // let projects = ``
-    // for (let i = 0; i < projectInfo.length ; i++) {
-    //     projects += generateProjectHtml(i)
-    // } 
-
-    // console.log(projects)
+    
     
 
     return (
@@ -51,8 +24,8 @@ function ProjectList() {
                                 </Col>
                                 <Col xs="12" md="8" lg="8">
                                     <div className="card-body">
-                                        <h4 className="card-title"><a href="{project.link}" target="_blank" rel="noreferrer" className="link">{project.name}</a></h4>
-                                        <h6 className="card-title"><a href="{project.github}" target="_blank" rel="noreferrer" className="link">Github repo</a></h6>
+                                        <h4 className="card-title"><a href={project.link} target="_blank" rel="noreferrer" className="link">{project.name}</a></h4>
+                                        <h6 className="card-title"><a href={project.github} target="_blank" rel="noreferrer" className="link">Github repo</a></h6>
                                         <p className="card-text">{project.desc}</p>
                                         <p className="card-text"><small className="text-muted">{project.tech}</small></p>
                                     </div>
