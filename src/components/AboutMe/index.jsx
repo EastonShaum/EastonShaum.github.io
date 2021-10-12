@@ -35,7 +35,7 @@ function AboutMe() {
                         </div>
                         <div >
                             <h4>
-                                Easton Shaum is begining Junior Developer that just finsihed a full stack coding bootcamp with the University of Utah. He is dedicated to learning more about code every single day and working with others on projects and apps.
+                            Easton Shaum is a beginning Junior Developer that just finished a full stack coding bootcamp with the University of Utah. He is dedicated to learning more about code every single day and working with others on projects and apps.                            
                             </h4>
                         </div>
                         <br></br>
