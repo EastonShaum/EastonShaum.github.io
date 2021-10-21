@@ -23,7 +23,7 @@ function AboutMe() {
                             <div  className="align-middle" style={{float: "left"}}>
                                 <h1  style={{fontStyle: "italic"}}>
                                     <p className="text-muted top-tag" style={{fontSize: "75%"}}>&lt;h1&gt;</p>
-                                    <p className="font-weight-bolder" style={{fontSize: "150%"}}>Hello!</p>
+                                    <p className="font-weight-bolder" style={{fontSize: "150%", paddingLeft: "20px"}}>Hello!</p>
                                     <p className="text-muted" style={{fontSize: "75%"}}>&lt;h1&gt;</p>
                                 </h1>
                             </div>
@@ -35,7 +35,7 @@ function AboutMe() {
                         </div>
                         <div >
                             <h4>
-                            Easton Shaum is a beginning Junior Developer that just finished a full stack coding bootcamp with the University of Utah. He is dedicated to learning more about code every single day and working with others on projects and apps.                            
+                            Easton Shaum is a Junior Developer that is passionate about coding and communicating great ideas to others. He is dedicated to learning more about code every single day and working with others on projects and apps.                            
                             </h4>
                         </div>
                         <br></br>
@@ -45,13 +45,16 @@ function AboutMe() {
                             </h4>
                             <ul>
                                 <li>
-                                    Languages: JavaScript ES6+, CSS3, HTML5, SQL, NoSQL
+                                    Languages: Fluent in JavaScript ES6+, CSS3, HTML5, SQL; Familiar with NoSQL, Python, C++
                                 </li>
                                 <li>
                                     Applications: GitHub, MongoDB, MySQL
                                 </li>
                                 <li>
-                                    Tools: Express, React, Node, Query, Bootstrap
+                                    Web Development: MVC, MERN
+                                </li>
+                                <li>
+                                    Tools: Understand Express, React, Node, Query, Bootstrap, Rest APIs, Sequelize, GraphQL; Exposure to Material UI
                                 </li>
                             </ul>
                         </div>
