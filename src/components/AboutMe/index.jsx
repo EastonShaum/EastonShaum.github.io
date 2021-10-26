@@ -60,8 +60,7 @@ function AboutMe() {
                         </div>
                         <br></br>
                         <h4><a href="https://github.com/EastonShaum" target="_blank" rel="noreferrer" className="link github-link">Github</a></h4>
-                        <h4>My Resume: <a href="/EastonShaumResume.docx" download className="link">Simple</a>
-                        , <a href="/EastonShaumResume.docx" download className="link">Styled</a></h4>
+                        <h4>My Resume: <a href="/EastonShaumResume.docx" download className="link">EastonShaumResume.docx</a></h4>
                         <h4>Contact Me: <a href="mailto:eastonshaum@gmail.com" target="_blank" rel="noreferrer" className="link">EastonShaum@gmail.com</a></h4>
                     </div>
                 </div>
