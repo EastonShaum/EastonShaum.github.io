@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 
-// Line numbers down the left edge, like an editor. Decorative only.
-const LINES = Array.from({ length: 400 }, (_, i) => i + 1).join('\n');
 
 export const LINKEDIN = 'https://www.linkedin.com/in/easton-shaum-122b0520b/';
 export const GITHUB = 'https://github.com/EastonShaum';
@@ -25,7 +23,8 @@ function Layout({ children }) {
     return (
         <div className="editor">
             <a className="skip-link" href="#main">Skip to content</a>
-            <div className="gutter" aria-hidden="true"><pre>{LINES}</pre></div>
+            {/* Line numbers come from CSS (.gutter::before), so they stay out of the page text */}
+            <div className="gutter" aria-hidden="true" />
             <div className="page">
                 <nav className="nav mono" aria-label="Main">
                     <Link to="/" className="logo">

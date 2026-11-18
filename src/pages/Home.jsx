@@ -66,7 +66,7 @@ function Home() {
                     <h1 className="hero-title">Hello, I’m Easton.</h1>
                     <div className="mono c-tag hero-tag"><span className="type type-close">&lt;/h1&gt;</span></div>
                     <p className="mono hero-role">
-                        <span className="c-tag">&lt;p</span> <span className="c-attr">role</span>=<span className="type type-role c-str">"software engineer"</span><span className="c-tag">&gt;</span><span className="caret" aria-hidden="true" />
+                        <span className="type type-role"><span className="c-tag">&lt;p</span> <span className="c-attr">role</span>=<span className="c-str">"software engineer"</span><span className="c-tag">&gt;</span></span><span className="caret" aria-hidden="true" />
                     </p>
                     <p className="hero-lede">
                         I build integrations, APIs and AI-powered tools. By day I work on production

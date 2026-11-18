@@ -6,15 +6,17 @@ import { startAnalytics } from './analytics';
 
 startAnalytics();
 
-
-ReactDOM.render(
+const root = document.getElementById('root');
+const app = (
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-
+// Pages are pre-rendered to HTML at build time (scripts/prerender.js);
+// hydrate that markup instead of replacing it. 404.html has an empty root.
+if (root.hasChildNodes()) {
+  ReactDOM.hydrate(app, root);
+} else {
+  ReactDOM.render(app, root);
+}
