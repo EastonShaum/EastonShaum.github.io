@@ -6,7 +6,7 @@ compatibility_date = "2024-09-01"
 binding = "DB"
 database_name = "portfolio-analytics"
 # Paste the id printed by `npx wrangler d1 create portfolio-analytics` here.
-database_id = "REPLACE_WITH_DATABASE_ID"
+database_id = "aaac39f3-7966-4ff4-a866-985eba766b2d"
 
 [triggers]
 # 15:00 UTC (8 AM Mountain in winter, 9 AM in summer): the daily summary, only if there were visits.
