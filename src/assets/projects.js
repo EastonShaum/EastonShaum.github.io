@@ -10,45 +10,55 @@ import TechBlogPic from './images/techBlog.jpg'
 import BudgetPic from './images/budget.jpg'
 
 // Each project:
-//   link    - the live site, or null when there isn't one (the title then links to github)
-//   github  - the public repo, or null when the code is private
-//   picture - image shown on the card; alt describes it for screen readers
+//   link     - the live site, or null when there isn't one
+//   github   - the public repo, or null
+//   tag      - the code-style label shown above the title: [element, attribute, value]
+//   featured - recent work, shown large on the home page and at the top of /projects
+//   picture  - image shown on the card; alt describes it for screen readers
 const projects = [
     {
         name: "Pokéleap",
+        featured: true,
         link: "https://pokeleap.com/",
         github: null,
+        tag: ["game", "live", "pokeleap.com"],
         picture: PokeleapPic,
         alt: "Pokéleap title card with pixel-art Pokémon running across a grass platform",
-        desc: "A live browser platformer with a new daily level, a daily leaderboard, Discord sign-in with cloud saves, and custom analytics that track sessions, level clears and session length.",
-        tech: "Phaser, JavaScript, Vite, Cloudflare Workers, D1 (SQLite), Cloudflare Pages"
+        desc: "A live browser platformer with a new level every day, a daily leaderboard, Discord sign-in with cloud saves, and analytics endpoints I wrote to track session length and level clears.",
+        tech: ["Phaser", "JavaScript", "Vite", "Cloudflare Workers", "D1"]
     },
     {
         name: "LISAP",
+        featured: true,
         link: null,
         github: "https://github.com/EastonShaum/LISAP",
+        tag: ["service", "pipeline", "gmail → pub/sub → push"],
         picture: LisapPic,
         alt: "Diagram of a Gmail inbox sending a verification code to a phone notification",
-        desc: "Real-time verification-code delivery: watches a Gmail inbox through Google Cloud Pub/Sub and pushes streaming-account sign-in codes to phones with Firebase Cloud Messaging.",
-        tech: "Node.js, Express, React, Gmail API, Google Cloud Pub/Sub, Firebase (Firestore, Cloud Messaging)"
+        desc: "Real-time verification-code delivery. It watches a Gmail inbox through Google Cloud Pub/Sub and pushes streaming-account sign-in codes to phones with Firebase Cloud Messaging. I tried Gmail polling and Twilio SMS first, and picked Pub/Sub and push for lower latency and cost.",
+        tech: ["Node.js", "Express", "React", "Gmail API", "Pub/Sub", "Firebase"]
     },
     {
         name: "ClipForge",
+        featured: true,
         link: null,
-        github: null,
+        github: "https://github.com/EastonShaum/ClipForge",
+        tag: ["pipeline", "runs-on", "raspberry-pi-5"],
         picture: ClipForgePic,
         alt: "Diagram of long-form video on a timeline turned into a vertical captioned clip",
-        desc: "Turns long-form podcasts, interviews and streams into vertical clips: transcribes with Whisper, has Claude pick the best moments, renders 9:16 video with word-by-word captions, and sends each clip to a phone for human review.",
-        tech: "Python, Whisper, Claude API, FFmpeg, SQLite, Raspberry Pi 5, Tailscale"
+        desc: "A self-hosted pipeline for paid clipping campaigns. It records or downloads footage, transcribes it with Whisper, has Claude pick the moments worth clipping, and renders 9:16 videos with FFmpeg. A Pi runs the brain, a laptop does the heavy rendering over Tailscale, and every clip waits for my approval on my phone.",
+        tech: ["Python", "FastAPI", "Whisper", "Claude API", "FFmpeg", "SQLite", "Tailscale"]
     },
     {
         name: "Kronos Trader",
+        featured: true,
         link: null,
         github: "https://github.com/EastonShaum/kronos-trader",
+        tag: ["experiment", "status", "retired"],
         picture: KronosPic,
         alt: "Candlestick price chart with a forecast cone extending past the current time",
-        desc: "Runs the Kronos time-series foundation model on a Raspberry Pi 5 to forecast the next 24 hours of crypto, stock and forex prices, then paper trades on confident predictions, with backtesting, a cost model and a live dashboard.",
-        tech: "Python, FastAPI, PyTorch, SQLAlchemy, APScheduler, React, Raspberry Pi 5"
+        desc: "Ran the Kronos forecasting model on a Raspberry Pi 5 for six months, paper trading crypto and stocks on its predictions. Over 22,000 scored forecasts, benchmarks and bootstrap tests showed no real edge (51% accuracy), so I wrote up the results and shut it down.",
+        tech: ["Python", "FastAPI", "PyTorch", "SQLAlchemy", "APScheduler", "React"]
     },
     {
         name: "CooKit",
@@ -56,8 +66,8 @@ const projects = [
         github: "https://github.com/jbped/cookit",
         picture: CookitPic,
         alt: "CooKit recipe app logo",
-        desc: "Full stack recipe application for adding, viewing, and saving recipes to your \"Kit\".",
-        tech: "React, MongoDB, GraphQL, JavaScript, HTML, SCSS"
+        desc: "Full-stack recipe app for adding, viewing and saving recipes to your \"Kit\". Built with a team.",
+        tech: ["React", "MongoDB", "GraphQL", "SCSS"]
     },
     {
         name: "GoalGetter",
@@ -65,8 +75,8 @@ const projects = [
         github: "https://github.com/EastonShaum/Goal-Getter",
         picture: GoalGetterPic,
         alt: "GoalGetter medal logo",
-        desc: "Full stack life improvement website for setting and accomplishing goals.",
-        tech: "JavaScript, MySQL, Express"
+        desc: "Full-stack site for setting goals and tracking progress on them.",
+        tech: ["JavaScript", "MySQL", "Express"]
     },
     {
         name: "Readme Generator",
@@ -74,17 +84,18 @@ const projects = [
         github: "https://github.com/EastonShaum/Professional-ReadMe-Generator",
         picture: ReadmePic,
         alt: "Screenshot of a generated README file",
-        desc: "Command-line program for quickly creating a README.md for GitHub repos.",
-        tech: "JavaScript, Node.js, Inquirer"
+        desc: "Command-line tool that writes a README.md for a GitHub repo from a few questions.",
+        tech: ["Node.js", "Inquirer"]
     },
     {
         name: "JoinCoin",
         link: "https://eastonshaum.github.io/Join-Coin/",
         github: "https://github.com/EastonShaum/Join-Coin",
         picture: JoinCoinPic,
+        contain: true,
         alt: "Bitcoin logo",
-        desc: "Website for searching and seeing trending cryptocurrencies.",
-        tech: "JavaScript, REST APIs, HTML, CSS"
+        desc: "Search and browse trending cryptocurrencies.",
+        tech: ["JavaScript", "REST APIs", "HTML", "CSS"]
     },
     {
         name: "TechBlog",
@@ -92,8 +103,8 @@ const projects = [
         github: "https://github.com/EastonShaum/Tech-Blog-Model-View-Controller",
         picture: TechBlogPic,
         alt: "TechBlog home page",
-        desc: "Simple blog site for people to post about techy things.",
-        tech: "JavaScript, Handlebars, Express, MySQL"
+        desc: "A small MVC blog for posting about tech.",
+        tech: ["Handlebars", "Express", "MySQL"]
     },
     {
         name: "Budget Tracker PWA",
@@ -101,8 +112,8 @@ const projects = [
         github: "https://github.com/EastonShaum/Budget-Tracker-PWA",
         picture: BudgetPic,
         alt: "Budget tracker chart",
-        desc: "Website for keeping track of expenses, including while offline.",
-        tech: "JavaScript, IndexedDB, Service Workers, MongoDB"
+        desc: "Expense tracker that keeps working offline.",
+        tech: ["IndexedDB", "Service Workers", "MongoDB"]
     }
 ]
 

@@ -1,12 +1,44 @@
+:root {
+  --bg: #FBFAFF;
+  --ink: #1E1B3A;
+  --muted: #6B6880;
+  --line: #ECEAF7;
+  --gutter: #B9B5D3;
+  --panel: #F2F0FC;
+  --magenta: #C0266D;
+  --teal: #0F7C73;
+  --amber: #A85A00;
+  --amber-dark: #7A3F00;
+  --indigo: #4338CA;
+  --pink-shadow: #F3C6DA;
+  --sans: 'Bricolage Grotesque', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace;
+  color-scheme: light;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
 body {
   margin: 0;
-  font-family: 'Roboto Mono';
-  /* -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 18px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+img { max-width: 100%; height: auto; }
 
+a { color: var(--amber); text-underline-offset: 3px; }
+a:hover { color: var(--amber-dark); }
+:focus-visible { outline: 3px solid var(--indigo); outline-offset: 3px; border-radius: 4px; }
+
+::selection { background: var(--pink-shadow); }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
