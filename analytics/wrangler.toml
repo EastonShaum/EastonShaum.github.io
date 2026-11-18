@@ -9,9 +9,9 @@ database_name = "portfolio-analytics"
 database_id = "REPLACE_WITH_DATABASE_ID"
 
 [triggers]
-# Every 10 minutes: send a Discord alert for each visit that has ended (no check-in for 5 minutes).
 # 15:00 UTC (8 AM Mountain in winter, 9 AM in summer): the daily summary, only if there were visits.
-crons = ["*/10 * * * *", "0 15 * * *"]
+# To also get a message after each visit, add "*/10 * * * *" here and set ALERT_VISITS = "on".
+crons = ["0 15 * * *"]
 
 [vars]
 # Sites allowed to send visits (comma-separated). Other origins are ignored.
@@ -19,5 +19,5 @@ ALLOWED_ORIGINS = "https://eastonshaum.com,https://www.eastonshaum.com,https://e
 # Time zone used for times in Discord messages.
 TIME_ZONE = "America/Denver"
 # "off" = no per-visit alerts, only the daily summary.
-ALERT_VISITS = "on"
+ALERT_VISITS = "off"
 # The Discord webhook is a secret, not a var:  npx wrangler secret put DISCORD_WEBHOOK

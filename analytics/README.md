@@ -2,10 +2,12 @@
 
 A Cloudflare Worker + D1 database that records visits to the portfolio and posts to Discord:
 
-- **After each visit** (checked every 10 minutes): how long the person stayed, phone or computer,
-  region and country, where they came from, the pages they viewed, and what they clicked
-  (resume, GitHub, project sites). Several visits in the same 10 minutes arrive as one message.
-- **Daily at 15:00 UTC**: a summary of the last 24 hours. Nothing is sent on days with no visits.
+- **Daily at 15:00 UTC** (8 AM Mountain in winter): a summary of the last 24 hours, with the number
+  of visits and people, time on site (total, median, longest), pages viewed, where visitors came
+  from and where they are, résumé downloads, and other links clicked. Nothing is sent on days
+  with no visits.
+- **Optional, after each visit:** a message per visit within about 10 minutes. Off by default;
+  see "Day to day" below.
 
 It's the same pattern as Pokéleap's leaderboard worker. Both run free on Cloudflare's free plan.
 
@@ -42,8 +44,9 @@ than 180 days are deleted.
   (for example `https://eastonshaum.com/?notrack=1`). `?notrack=0` undoes it.
 - **See where people came from:** add `?ref=` to links you share, such as
   `https://eastonshaum.com/?ref=resume` on your resume or `?ref=linkedin` on LinkedIn.
-  The alert then says `link tagged "resume"`.
-- **Only the daily summary:** set `ALERT_VISITS = "off"` in `wrangler.toml` and `npm run deploy`.
+  The summary then counts it as `link tagged "resume"`.
+- **A message after every visit too:** in `wrangler.toml`, add `"*/10 * * * *"` to `crons`, set
+  `ALERT_VISITS = "on"`, and `npm run deploy`.
 - **New site address:** add it to `ALLOWED_ORIGINS` in `wrangler.toml`; visits from other sites are ignored.
 - **Look at raw data:** `npx wrangler d1 execute portfolio-analytics --remote --command "SELECT * FROM visits ORDER BY started_at DESC LIMIT 20"`
 

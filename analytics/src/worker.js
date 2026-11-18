@@ -178,7 +178,10 @@ async function dailySummary(env) {
     `Came from: ${topCounts(visits.map(source))}`,
     `Where: ${topCounts(visits.map(place))}`,
   ];
-  if (clicks.length) lines.push(`Clicked: ${topCounts(clicks, 8)}`);
+  const resumeVisits = visits.filter(v => v.clicks.split(" ").includes("resume")).length;
+  lines.push(`Résumé downloads: ${resumeVisits ? `${resumeVisits} ${resumeVisits === 1 ? "visit" : "visits"}` : "none"}`);
+  const other = clicks.filter(c => c !== "resume");
+  if (other.length) lines.push(`Clicked: ${topCounts(other, 8)}`);
   await post(env, lines.join("\n"));
 }
 
