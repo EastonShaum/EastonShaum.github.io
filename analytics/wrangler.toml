@@ -15,7 +15,7 @@ crons = ["*/10 * * * *", "0 15 * * *"]
 
 [vars]
 # Sites allowed to send visits (comma-separated). Other origins are ignored.
-ALLOWED_ORIGINS = "https://eastonshaum.netlify.app,https://eastonshaum.github.io,http://localhost:3000"
+ALLOWED_ORIGINS = "https://eastonshaum.com,https://www.eastonshaum.com,https://eastonshaum.github.io,http://localhost:3000"
 # Time zone used for times in Discord messages.
 TIME_ZONE = "America/Denver"
 # "off" = no per-visit alerts, only the daily summary.

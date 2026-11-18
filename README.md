@@ -4,7 +4,7 @@
 
   This is the repo for my portfolio. It is very simple but that is how I like it.
 
-  Link for the deployed application: [My Portfolio!](https://eastonshaum.netlify.app/)
+  Link for the deployed application: [eastonshaum.com](https://eastonshaum.com/)
 
   
   ## Installation

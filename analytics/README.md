@@ -39,9 +39,9 @@ than 180 days are deleted.
 ## Day to day
 
 - **Don't count your own visits:** open the site once on each of your browsers with `?notrack=1`
-  (for example `https://eastonshaum.netlify.app/?notrack=1`). `?notrack=0` undoes it.
+  (for example `https://eastonshaum.com/?notrack=1`). `?notrack=0` undoes it.
 - **See where people came from:** add `?ref=` to links you share, such as
-  `https://eastonshaum.netlify.app/?ref=resume` on your resume or `?ref=linkedin` on LinkedIn.
+  `https://eastonshaum.com/?ref=resume` on your resume or `?ref=linkedin` on LinkedIn.
   The alert then says `link tagged "resume"`.
 - **Only the daily summary:** set `ALERT_VISITS = "off"` in `wrangler.toml` and `npm run deploy`.
 - **New site address:** add it to `ALLOWED_ORIGINS` in `wrangler.toml`; visits from other sites are ignored.
