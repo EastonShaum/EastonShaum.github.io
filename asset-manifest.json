@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.1daa8e36.chunk.css",
-    "main.js": "/static/js/main.041cf409.chunk.js",
-    "main.js.map": "/static/js/main.041cf409.chunk.js.map",
+    "main.js": "/static/js/main.5864ffeb.chunk.js",
+    "main.js.map": "/static/js/main.5864ffeb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2ab200af.js",
     "runtime-main.js.map": "/static/js/runtime-main.2ab200af.js.map",
     "static/js/2.3bc9486c.chunk.js": "/static/js/2.3bc9486c.chunk.js",
@@ -18,7 +18,7 @@
     "static/media/cookit.1b7149ea.png": "/static/media/cookit.1b7149ea.png",
     "static/media/kronos.adc867e6.svg": "/static/media/kronos.adc867e6.svg",
     "static/media/lisap.48c7774e.svg": "/static/media/lisap.48c7774e.svg",
-    "static/media/pokeleap.962267b0.png": "/static/media/pokeleap.962267b0.png",
+    "static/media/pokeleap.1cacb061.png": "/static/media/pokeleap.1cacb061.png",
     "static/media/readme.69569a76.jpg": "/static/media/readme.69569a76.jpg",
     "static/media/techBlog.08a218e7.jpg": "/static/media/techBlog.08a218e7.jpg"
   },
@@ -26,6 +26,6 @@
     "static/js/runtime-main.2ab200af.js",
     "static/js/2.3bc9486c.chunk.js",
     "static/css/main.1daa8e36.chunk.css",
-    "static/js/main.041cf409.chunk.js"
+    "static/js/main.5864ffeb.chunk.js"
   ]
 }
