@@ -1,6 +1,7 @@
 import PokeleapPic from './images/pokeleap.png'
 import LisapPic from './images/lisap.svg'
 import ClipForgePic from './images/clipforge.svg'
+import KronosPic from './images/kronos.svg'
 import GoalGetterPic from './images/GoalPic1.png'
 import JoinCoinPic from './images/bitcoin.svg'
 import CookitPic from './images/cookit.png'
@@ -39,6 +40,15 @@ const projects = [
         alt: "Diagram of long-form video on a timeline turned into a vertical captioned clip",
         desc: "Turns long-form podcasts, interviews and streams into vertical clips: transcribes with Whisper, has Claude pick the best moments, renders 9:16 video with word-by-word captions, and sends each clip to a phone for human review.",
         tech: "Python, Whisper, Claude API, FFmpeg, SQLite, Raspberry Pi 5, Tailscale"
+    },
+    {
+        name: "Kronos Trader",
+        link: null,
+        github: "https://github.com/EastonShaum/kronos-trader",
+        picture: KronosPic,
+        alt: "Candlestick price chart with a forecast cone extending past the current time",
+        desc: "Runs the Kronos time-series foundation model on a Raspberry Pi 5 to forecast the next 24 hours of crypto, stock and forex prices, then paper trades on confident predictions, with backtesting, a cost model and a live dashboard.",
+        tech: "Python, FastAPI, PyTorch, SQLAlchemy, APScheduler, React, Raspberry Pi 5"
     },
     {
         name: "CooKit",
