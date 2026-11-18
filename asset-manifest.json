@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.7a822dd2.chunk.css",
-    "main.js": "/static/js/main.dc3bd326.chunk.js",
-    "main.js.map": "/static/js/main.dc3bd326.chunk.js.map",
+    "main.css": "/static/css/main.1daa8e36.chunk.css",
+    "main.js": "/static/js/main.041cf409.chunk.js",
+    "main.js.map": "/static/js/main.041cf409.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2ab200af.js",
     "runtime-main.js.map": "/static/js/runtime-main.2ab200af.js.map",
-    "static/css/2.818011ed.chunk.css": "/static/css/2.818011ed.chunk.css",
-    "static/js/2.6382de3a.chunk.js": "/static/js/2.6382de3a.chunk.js",
-    "static/js/2.6382de3a.chunk.js.map": "/static/js/2.6382de3a.chunk.js.map",
+    "static/js/2.3bc9486c.chunk.js": "/static/js/2.3bc9486c.chunk.js",
+    "static/js/2.3bc9486c.chunk.js.map": "/static/js/2.3bc9486c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.818011ed.chunk.css.map": "/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.7a822dd2.chunk.css.map": "/static/css/main.7a822dd2.chunk.css.map",
-    "static/js/2.6382de3a.chunk.js.LICENSE.txt": "/static/js/2.6382de3a.chunk.js.LICENSE.txt",
+    "static/css/main.1daa8e36.chunk.css.map": "/static/css/main.1daa8e36.chunk.css.map",
+    "static/js/2.3bc9486c.chunk.js.LICENSE.txt": "/static/js/2.3bc9486c.chunk.js.LICENSE.txt",
     "static/media/GoalPic1.1455a4ae.png": "/static/media/GoalPic1.1455a4ae.png",
     "static/media/Portrait.6828c231.jpeg": "/static/media/Portrait.6828c231.jpeg",
-    "static/media/bitcoin.441bd88f.svg": "/static/media/bitcoin.441bd88f.svg",
+    "static/media/bitcoin.74f7f596.svg": "/static/media/bitcoin.74f7f596.svg",
     "static/media/budget.58a13582.jpg": "/static/media/budget.58a13582.jpg",
+    "static/media/clipforge.69a7b761.svg": "/static/media/clipforge.69a7b761.svg",
     "static/media/cookit.1b7149ea.png": "/static/media/cookit.1b7149ea.png",
+    "static/media/kronos.adc867e6.svg": "/static/media/kronos.adc867e6.svg",
+    "static/media/lisap.48c7774e.svg": "/static/media/lisap.48c7774e.svg",
+    "static/media/pokeleap.962267b0.png": "/static/media/pokeleap.962267b0.png",
     "static/media/readme.69569a76.jpg": "/static/media/readme.69569a76.jpg",
     "static/media/techBlog.08a218e7.jpg": "/static/media/techBlog.08a218e7.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2ab200af.js",
-    "static/css/2.818011ed.chunk.css",
-    "static/js/2.6382de3a.chunk.js",
-    "static/css/main.7a822dd2.chunk.css",
-    "static/js/main.dc3bd326.chunk.js"
+    "static/js/2.3bc9486c.chunk.js",
+    "static/css/main.1daa8e36.chunk.css",
+    "static/js/main.041cf409.chunk.js"
   ]
 }
