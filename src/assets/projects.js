@@ -1,5 +1,5 @@
 import PokeleapPic from './images/pokeleap.png'
-import LisapPic from './images/lisap.svg'
+import LisapPic from './images/lisap.png'
 import ClipForgePic from './images/clipforge.svg'
 import KronosPic from './images/kronos.svg'
 import GoalGetterPic from './images/GoalPic1.png'
@@ -30,13 +30,13 @@ const projects = [
     {
         name: "LISAP",
         featured: true,
-        link: null,
+        link: "https://lisap.app/",
         github: "https://github.com/EastonShaum/LISAP",
-        tag: ["service", "pipeline", "gmail → pub/sub → push"],
+        tag: ["service", "live", "lisap.app"],
         picture: LisapPic,
-        alt: "Diagram of a Gmail inbox sending a verification code to a phone notification",
-        desc: "Real-time verification-code delivery. It watches a Gmail inbox through Google Cloud Pub/Sub and pushes streaming-account sign-in codes to phones with Firebase Cloud Messaging. I tried Gmail polling and Twilio SMS first, and picked Pub/Sub and push for lower latency and cost.",
-        tech: ["Node.js", "Express", "React", "Gmail API", "Pub/Sub", "Firebase"]
+        alt: "LISAP home page: the headline \"The code goes to whoever's watching\" beside a phone lock screen showing a Disney+ code notification",
+        desc: "Shares streaming sign-in codes with everyone on the account. The owner's Gmail forwards the code emails, Gmail and Pub/Sub push them to a Cloudflare Worker, and Firebase Cloud Messaging puts the code on every phone within seconds. I tried Gmail polling and Twilio SMS first, then moved it from a laptop to Workers and D1 so it's always on and free to run.",
+        tech: ["Cloudflare Workers", "D1", "React", "Gmail API", "Pub/Sub", "Firebase"]
     },
     {
         name: "ClipForge",
