@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.70188251.chunk.css",
-    "main.js": "/static/js/main.217aa966.chunk.js",
-    "main.js.map": "/static/js/main.217aa966.chunk.js.map",
+    "main.css": "/static/css/main.af472d55.chunk.css",
+    "main.js": "/static/js/main.f8d36dec.chunk.js",
+    "main.js.map": "/static/js/main.f8d36dec.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2ab200af.js",
     "runtime-main.js.map": "/static/js/runtime-main.2ab200af.js.map",
     "static/js/2.0f48e507.chunk.js": "/static/js/2.0f48e507.chunk.js",
     "static/js/2.0f48e507.chunk.js.map": "/static/js/2.0f48e507.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.70188251.chunk.css.map": "/static/css/main.70188251.chunk.css.map",
+    "static/css/main.af472d55.chunk.css.map": "/static/css/main.af472d55.chunk.css.map",
     "static/js/2.0f48e507.chunk.js.LICENSE.txt": "/static/js/2.0f48e507.chunk.js.LICENSE.txt",
     "static/media/GoalPic1.1455a4ae.png": "/static/media/GoalPic1.1455a4ae.png",
     "static/media/Portrait.6828c231.jpeg": "/static/media/Portrait.6828c231.jpeg",
     "static/media/bitcoin.74f7f596.svg": "/static/media/bitcoin.74f7f596.svg",
     "static/media/budget.58a13582.jpg": "/static/media/budget.58a13582.jpg",
-    "static/media/clipforge.971f1f8e.svg": "/static/media/clipforge.971f1f8e.svg",
+    "static/media/clipforge.69a7b761.svg": "/static/media/clipforge.69a7b761.svg",
     "static/media/cookit.1b7149ea.png": "/static/media/cookit.1b7149ea.png",
-    "static/media/kronos.e00d84cf.svg": "/static/media/kronos.e00d84cf.svg",
-    "static/media/lisap.396f1e28.svg": "/static/media/lisap.396f1e28.svg",
+    "static/media/kronos.adc867e6.svg": "/static/media/kronos.adc867e6.svg",
+    "static/media/lisap.9e6f9847.png": "/static/media/lisap.9e6f9847.png",
     "static/media/pokeleap.1cacb061.png": "/static/media/pokeleap.1cacb061.png",
     "static/media/readme.69569a76.jpg": "/static/media/readme.69569a76.jpg",
     "static/media/techBlog.08a218e7.jpg": "/static/media/techBlog.08a218e7.jpg"
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.2ab200af.js",
     "static/js/2.0f48e507.chunk.js",
-    "static/css/main.70188251.chunk.css",
-    "static/js/main.217aa966.chunk.js"
+    "static/css/main.af472d55.chunk.css",
+    "static/js/main.f8d36dec.chunk.js"
   ]
 }
